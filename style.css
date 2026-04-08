@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#hero{
+    background-image: url(family.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.page1{
+    width: 100%;
+    height: 100dvh;
+}
+
+.blur-block{
+    width: 47%;
+    height: 100dvh;
+    background: #0F2E3A33;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-company{
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.zona{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description{
+    font-size: 42px;
+    color: cyan;
+}
+
+.house{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.btn{
+    color: white;
+    background-color: aqua;
+    width: 25%;
+    height: 7%;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    &:hover{
+        transform: scale(1.1);
+        transition-duration: 0.1s;
+    }
+}
+
+.bron{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
