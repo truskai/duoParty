@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -72,4 +73,67 @@
     text-align: center;
     font-size: 22px;
     color: white;
+}
+
+.container{
+    height: 90dvh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 30dvh;
+    padding-right: 20dvh;
+    grid-gap: 2dvh;
+}
+.items{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.items:nth-of-type(1){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/k1skrkb-GLSD7IRpm4eGbg/2000r1333/d/tpl25_luxury_lakeside_hotel.png);
+    background-position: center;
+    background-size: cover;
+}
+.items:nth-of-type(2){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/drEkjxous_OJr2ua0oFyzg/2000r1333/d/tpl25_stp25_55519846_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items:nth-of-type(3){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/NwI-YdVTtqwKXytFaAB2Eg/2000r1333/d/tpl25_stp25_55519903_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items:nth-of-type(4){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/ErV0kMb_Y40qUv-P_EF6Iw/2000r1333/d/tpl25_55459971_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items:nth-of-type(5){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/sQ7jhctcQGqP3puhO2ncNA/2000r1333/d/tpl25_stp25_55519904_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.items:nth-of-type(6){
+    background-image: url(https://mos-111721.oml.ru/thumb/2/TnD5OJItm3mFRxuHagoD2Q/2000r1333/d/tpl25_55471919_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.label{
+    background-color: rgb(4, 83, 83);
+    color: white;
+    height: 60px;
+    width: 255px;
+    font-size: 26px;
+    border-radius: 20px 20px 0 0;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+    background-color: cyan;
+    transition-duration: 0.2s;
+}
 }
